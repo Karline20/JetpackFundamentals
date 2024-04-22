@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JetpackKarl"
+        tools:targetApi="31">
+        <activity
+            android:name=".lazyrecyclerview.InfoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_info"
+            android:theme="@style/Theme.JetpackKarl" />
+        <activity
+            android:name=".lazyrecyclerview.RecyclerViewLazy"
+            android:exported="true"
+            android:label="@string/title_activity_recycler_view_lazy"
+            android:theme="@style/Theme.JetpackKarl">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".snackbar.SnackBarDemo"
+            android:exported="false"
+            android:label="@string/title_activity_snack_bar_demo"
+            android:theme="@style/Theme.JetpackKarl"></activity>
+        <activity
+            android:name=".buttondemo.ButtonDemo"
+            android:exported="false"
+            android:label="@string/title_activity_button_demo"
+            android:theme="@style/Theme.JetpackKarl" />
+        <activity
+            android:name=".boxexample.BoxExample"
+            android:exported="false"
+            android:label="@string/title_activity_box_example"
+            android:theme="@style/Theme.JetpackKarl" />
+        <activity
+            android:name=".demo.MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.JetpackKarl" />
+    </application>
+
+</manifest>

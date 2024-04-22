@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JetpackKarl</string>
+    <string name="title_activity_box_example">BoxExample</string>
+    <string name="title_activity_button_demo">ButtonDemo</string>
+    <string name="title_activity_snack_bar_demo">SnackBarDemo</string>
+    <string name="title_activity_recycler_view_lazy">RecyclerViewLazy</string>
+    <string name="title_activity_info">InfoActivity</string>
+</resources>
